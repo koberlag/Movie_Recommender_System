@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.d-flex { display: flex !important; }
+.d-inline-flex { display: inline-flex; }
+
+.flex-row            { flex-direction: row; }
+.flex-row-reverse    { flex-direction: row-reverse; }
+.flex-column         { flex-direction: column; }
+.flex-column-reverse { flex-direction: column-reverse; }
+
+.flex-wrap     { flex-wrap: wrap; }
+.flex-nowrap   { flex-wrap: nowrap; }
+
+.flex-justify-start    { justify-content: flex-start; }
+.flex-justify-end      { justify-content: flex-end; }
+.flex-justify-center   { justify-content: center; }
+.flex-justify-between  { justify-content: space-between; }
+.flex-justify-around   { justify-content: space-around; }
+
+.flex-items-start      { align-items: flex-start; }
+.flex-items-end        { align-items: flex-end; }
+.flex-items-center     { align-items: center; }
+.flex-items-baseline   { align-items: baseline; }
+.flex-items-stretch    { align-items: stretch; }
+
+.flex-content-start    { align-content: flex-start; }
+.flex-content-end      { align-content: flex-end; }
+.flex-content-center   { align-content: center; }
+.flex-content-between  { align-content: space-between; }
+.flex-content-around   { align-content: space-around; }
+.flex-content-stretch  { align-content: stretch; }
+
+.flex-1        { flex: 1; }
+.flex-auto     { flex: auto; }
+.flex-grow-0   { flex-grow: 0; }
+.flex-shrink-0 { flex-shrink: 0; }
+
+.flex-order-1    { order: 1; }
+.flex-order-2    { order: 2; }
+.flex-order-none { order: inherit; }
+
+.full-height {
+  height: 100%;
+}
+
+.full-width {
+  width: 100%;
+}
